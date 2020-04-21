@@ -1,0 +1,4 @@
+C:\Users\Admin\Documents\1 Schule Luki\Automation\Minirechner\Minirechner\Minirechner\bin\Debug\Minirechner.exe
+C:\Users\Admin\Documents\1 Schule Luki\Automation\Minirechner\Minirechner\Minirechner\bin\Debug\Minirechner.pdb
+C:\Users\Admin\Documents\1 Schule Luki\Automation\Minirechner\Minirechner\Minirechner\obj\x86\Debug\Minirechner.exe
+C:\Users\Admin\Documents\1 Schule Luki\Automation\Minirechner\Minirechner\Minirechner\obj\x86\Debug\Minirechner.pdb
