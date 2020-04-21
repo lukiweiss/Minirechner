@@ -28,6 +28,18 @@ namespace Minirechner
             }
             Console.WriteLine("Ergebnis = " + Ergebnis);
 
+            if (Operation == 2) //Subtrahieren
+            {
+                Ergebnis = Zahleins - Zahlzwei;
+            }
+            Console.WriteLine("Ergebnis = " + Ergebnis);
+
+            if (Operation == 3) //Multiplizieren
+            {
+                Ergebnis = Zahleins * Zahlzwei;
+            }
+            Console.WriteLine("Ergebnis = " + Ergebnis);
+
 
             Console.ReadKey();
         }
