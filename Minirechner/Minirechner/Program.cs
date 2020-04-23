@@ -53,8 +53,8 @@ namespace Minirechner
             if(Operation == 3)
                 Ergebnis = Multiplizieren(Zahleins, Zahlzwei);
 
-            if (Operation == 4)
-                Ergebnis = Dividieren(Zahleins, Zahlzwei);
+            if(Operation == 4)
+                Ergebnis = Dividieren(Zahleins,Zahlzwei);
 
             Console.WriteLine("Ergebnis = " + Ergebnis);
             Console.ReadKey();
