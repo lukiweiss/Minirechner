@@ -22,28 +22,6 @@ namespace Minirechner
             Console.WriteLine("Wähle: 1 = Addieren, 2 = Subtrahieren, 3 = Multiplizieren, 4 = Dividieren");
             Operation = Convert.ToInt16(Console.ReadLine());
 
-            /*if(Operation == 1) //Addieren
-            {
-                Ergebnis = Zahleins + Zahlzwei;
-            }
-            Console.WriteLine("Ergebnis = " + Ergebnis);
-
-            if (Operation == 2) //Subtrahieren
-            {
-                Ergebnis = Zahleins - Zahlzwei;
-            }
-            Console.WriteLine("Ergebnis = " + Ergebnis);
-
-            if (Operation == 3) //Multiplizieren
-            {
-                Ergebnis = Zahleins * Zahlzwei;
-            }
-            Console.WriteLine("Ergebnis = " + Ergebnis);
-
-            if (Operation == 3) //Dividieren
-            {
-                Ergebnis = Zahleins / Zahlzwei;
-            }*/
             Ergebnis = Addieren(Zahleins, Zahlzwei);
 
             Console.WriteLine("Ergebnis = " + Ergebnis);
