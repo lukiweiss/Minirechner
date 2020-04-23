@@ -22,36 +22,12 @@ namespace Minirechner
             Console.WriteLine("Wähle: 1 = Addieren, 2 = Subtrahieren, 3 = Multiplizieren, 4 = Dividieren");
             Operation = Convert.ToInt16(Console.ReadLine());
 
-            /*if(Operation == 1) //Addieren
-            {
-                Ergebnis = Zahleins + Zahlzwei;
-            }
-            Console.WriteLine("Ergebnis = " + Ergebnis);
-
-            if (Operation == 2) //Subtrahieren
-            {
-                Ergebnis = Zahleins - Zahlzwei;
-            }
-            Console.WriteLine("Ergebnis = " + Ergebnis);
-
-            if (Operation == 3) //Multiplizieren
-            {
-                Ergebnis = Zahleins * Zahlzwei;
-            }
-            Console.WriteLine("Ergebnis = " + Ergebnis);
-
-            if (Operation == 3) //Dividieren
-            {
-                Ergebnis = Zahleins / Zahlzwei;
-            }*/
+            
             if(Operation == 1)
             Ergebnis = Addieren(Zahleins, Zahlzwei);
 
             if (Operation == 2)
                 Ergebnis = Subtrahieren(Zahleins, Zahlzwei);
-
-          /*  if(Operation == 3)
-                Ergebnis = Multiplizieren(Zahleins, Zahlzwei);*/
 
             Console.WriteLine("Ergebnis = " + Ergebnis);
             Console.ReadKey();
@@ -67,12 +43,5 @@ namespace Minirechner
             int Erg = zahl1 - zahl2;
             return Erg;
         }
-        /*static int Multiplizieren(int zahl1, int zahl2)
-        {
-            int Erg = zahl1 * zahl2;
-            return Erg;
-        }*/
-
-
     }
 }
