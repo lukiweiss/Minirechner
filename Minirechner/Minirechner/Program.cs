@@ -57,7 +57,11 @@ namespace Minirechner
             double Erg = zahl1 / zahl2;
             return Erg;
         }
-
+        static int Addieren(int zahl1, int zahl2)
+        {
+            int Erg = zahl1 + zahl2;
+            return Erg;
+        }
 
     }
 }
