@@ -44,7 +44,11 @@ namespace Minirechner
             {
                 Ergebnis = Zahleins / Zahlzwei;
             }*/
+            if(Operation == 1)
             Ergebnis = Addieren(Zahleins, Zahlzwei);
+
+            if (Operation == 2)
+                Ergebnis = Subtrahieren(Zahleins, Zahlzwei);
 
             Console.WriteLine("Ergebnis = " + Ergebnis);
             Console.ReadKey();
@@ -60,6 +64,7 @@ namespace Minirechner
             int Erg = zahl1 - zahl2;
             return Erg;
         }
+
 
     }
 }
