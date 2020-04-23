@@ -14,7 +14,6 @@ namespace Minirechner
             int Operation = 0;
             int Ergebnis = 0;
 
-
             Console.WriteLine("Gib die erste Zahl ein:");
             Zahleins = Convert.ToInt16(Console.ReadLine());
             Console.WriteLine("Gib die zweite Zahl ein");
