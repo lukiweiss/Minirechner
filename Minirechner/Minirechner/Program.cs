@@ -40,6 +40,11 @@ namespace Minirechner
             }
             Console.WriteLine("Ergebnis = " + Ergebnis);
 
+            if (Operation == 3) //Dividieren
+            {
+                Ergebnis = Zahleins / Zahlzwei;
+            }
+            Console.WriteLine("Ergebnis = " + Ergebnis);
 
             Console.ReadKey();
         }
