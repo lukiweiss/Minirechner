@@ -44,7 +44,17 @@ namespace Minirechner
             {
                 Ergebnis = Zahleins / Zahlzwei;
             }*/
+            if(Operation == 1)
             Ergebnis = Addieren(Zahleins, Zahlzwei);
+
+            if (Operation == 2)
+                Ergebnis = Subtrahieren(Zahleins, Zahlzwei);
+
+            if(Operation == 3)
+                Ergebnis = Multiplizieren(Zahleins, Zahlzwei);
+
+            if (Operation == 4)
+                Ergebnis = Dividieren(Zahleins, Zahlzwei);
 
             Console.WriteLine("Ergebnis = " + Ergebnis);
             Console.ReadKey();
@@ -55,6 +65,22 @@ namespace Minirechner
             int Erg = zahl1 + zahl2;
             return Erg;
         }
+        static int Subtrahieren(int zahl1, int zahl2)
+        {
+            int Erg = zahl1 - zahl2;
+            return Erg;
+        }
+        static int Multiplizieren(int zahl1, int zahl2)
+        {
+            int Erg = zahl1 * zahl2;
+            return Erg;
+        }
+        static int Dividieren(int zahl1, int zahl2)
+        {
+            int Erg = zahl1 / zahl2;
+            return Erg;
+        }
+
 
     }
 }
